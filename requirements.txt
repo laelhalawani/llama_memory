@@ -1,0 +1,4 @@
+util_helper>=0.0.4
+chromadb==0.4.22
+gguf_llama==0.1.2
+    
