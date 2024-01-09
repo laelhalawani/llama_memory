@@ -4,7 +4,7 @@ with open("./README.md", "r") as fh:
     long_description = fh.read()
 setup(
     name="llama_memory",
-    version="0.0.1a0_pch",
+    version="0.0.1a0001",
     packages=find_packages(),
     include_package_data=True,
     author="Łael Al-Halawani",
