@@ -4,13 +4,8 @@ with open("./README.md", "r") as fh:
     long_description = fh.read()
 setup(
     name="llama_memory",
-    version="0.0.1a0",
+    version="0.0.1a0_pch",
     packages=find_packages(),
-    install_requires=[
-        "util_helper>=0.0.4",
-        "chromadb==0.4.22"
-        "gguf_llama>=0.1.2"
-    ],
     include_package_data=True,
     author="Łael Al-Halawani",
     author_email="laelhalawani@gmail.com",
